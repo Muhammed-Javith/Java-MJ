@@ -6,4 +6,4 @@
 
 **3.Bootstrap 4 Ultimate Guide**  [click here](https://www.udemy.com/course/learn-advanced-bootstrap-4/)
 
- **4.Learn JQuery-For Beginners**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Learn%20JQuery%20-%20For%20Beginners)
+ **4.Learn JQuery-For Beginners**  [click here](https://www.udemy.com/course/learn-jquery-for-beginners/)
