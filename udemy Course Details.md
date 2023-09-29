@@ -7,3 +7,5 @@
 **3.Bootstrap 4 Ultimate Guide**  [click here](https://www.udemy.com/course/learn-advanced-bootstrap-4/)
 
  **4.Learn JQuery-For Beginners**  [click here](https://www.udemy.com/course/learn-jquery-for-beginners/)
+
+ **5.JavaScript Modern ES6 - 2020 - The Complete Course**  [click here](https://www.udemy.com/course/javascript-tharunshiv/)
