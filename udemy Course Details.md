@@ -13,3 +13,7 @@
  **6.PHP & MySQL - Certification Course for Beginners**  [click here](https://www.udemy.com/course/php-mysql-certification-course-for-beginners/)
 
  **7.Asynchronous Javascript from A to Z**  [click here](https://www.udemy.com/course/asynchronous-javascript-from-zero-to-hero/)
+
+ **8.Build 10 JavaScript Projects in less than 6 Hours:**  [click here](https://www.udemy.com/course/build-10-javascript-projects-in-less-than-6-hours/)
+ 
+ 
