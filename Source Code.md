@@ -13,3 +13,7 @@
 **6.PHP & MySQL - Certification Course for Beginners**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/PHP%20%26%20MySQL%20-%20Certification%20Course%20for%20Beginners)
 
 **7.Asynchronous Javascript from A to Z**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Asynchronous%20Javascript%20from%20A%20to%20Z)
+
+**8.Build 10 JavaScript Projects in less than 6 Hours:**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Build%2010%20JavaScript%20Projects%20in%20less%20than%206%20Hours)
+
+
