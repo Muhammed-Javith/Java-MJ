@@ -9,3 +9,5 @@
  **4.Learn JQuery-For Beginners**  [click here](https://www.udemy.com/course/learn-jquery-for-beginners/)
 
  **5.JavaScript Modern ES6 - 2020 - The Complete Course**  [click here](https://www.udemy.com/course/javascript-tharunshiv/)
+
+ **6.PHP & MySQL - Certification Course for Beginners**  [click here](https://www.udemy.com/course/php-mysql-certification-course-for-beginners/)
