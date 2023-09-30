@@ -9,3 +9,6 @@
  **4.Learn JQuery-For Beginners**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Learn%20JQuery%20-%20For%20Beginners)
 
  **5.JavaScript Modern ES6 - 2020 - The Complete Course**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/JavaScript%20Modern%20ES6%20-%202020%20-%20The%20Complete%20Course)
+
+**6.PHP & MySQL - Certification Course for Beginners**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/PHP%20%26%20MySQL%20-%20Certification%20Course%20for%20Beginners)
+
