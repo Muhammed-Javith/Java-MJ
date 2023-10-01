@@ -17,7 +17,8 @@
  **8.Build 10 JavaScript Projects in less than 6 Hours:**  [click here](https://www.udemy.com/course/build-10-javascript-projects-in-less-than-6-hours/)
 
  **9.Learn Responsive Web Design with 4 Live Projects (2023)** [click here](https://www.udemy.com/course/responsive-web-design-2-0-complete-guide/)
- 
+
+**10.Java Course for Complete Beginners with Practical Examples**  [click here](https://www.udemy.com/course/practical-java-course/)
  
  
  
