@@ -6,5 +6,5 @@
 
 **3.Introduction to using Git**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Introduction%20to%20using%20Git)
 
-**4.Mastering The Complete Agile Scrum Master Workshop**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Introduction%20to%20using%20Git)
+**4.Mastering The Complete Agile Scrum Master Workshop**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Mastering%20The%20Complete%20Agile%20Scrum%20Master%20Workshop)
 
