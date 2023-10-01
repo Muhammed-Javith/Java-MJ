@@ -4,6 +4,6 @@
 
 **2.The DevOps Essentials - The Handbook**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/The%20DevOps%20Essentials%20-%20The%20Handbook)
 
-
+**3.Introduction to using Git**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Introduction%20to%20using%20Git)
 
 
