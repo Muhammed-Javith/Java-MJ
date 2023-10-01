@@ -8,3 +8,4 @@
 
 **4.Mastering The Complete Agile Scrum Master Workshop**  [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Mastering%20The%20Complete%20Agile%20Scrum%20Master%20Workshop)
 
+**5.Scrum Testing: Learn Testing in Agile and Scrum from A to Z :** [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Scrum%20Testing%20Learn%20Testing%20in%20Agile%20and%20Scrum%20from%20A%20to%20Z)
