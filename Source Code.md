@@ -18,5 +18,5 @@
 
 **9.Learn Responsive Web Design with 4 Live Projects (2023)**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Learn%20Responsive%20Web%20Design%20with%204%20Live%20Projects%20(2023))
 
-
+**10.Java Course for Complete Beginners with Practical Examples**  [click here](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Java%20Course%20for%20Complete%20Beginners%20with%20Practical%20Examples/src/mjavith)
 
