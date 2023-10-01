@@ -1,0 +1,19 @@
+table{
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.aboutme{
+	background-color: #90ee90;
+	padding: 50px 20px;
+}
+
+.profile-picture{
+	width: 200px;
+	height: 200px;
+	margin: 20px auto;
+}
+
+.about-Ejike{
+	width: 50%;
+	margin: auto;
+}

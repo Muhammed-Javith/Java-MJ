@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=JvKMYe_7KqurpsjDPRQmhHPiFATXX1_WKDOgifEalxchjg4QTci8ZUlQSMt6KcY1XZh2FIy6HPwCPnc9nYS4DS32hFqJzsbTnJALrwJQjYR9mxbrS2mU-stFJVgROkpfgRfQK1OG4bslmQaAARucJbto-eV6NJI0UNzViohhbu23UX6Sd05AVmS9UoE2fcm1F20yIdY6hI4jLBlZDfQcs-NxZHxLZ29aVsgozw8G3S27XEBZw02JGWBJuk67BL8_PFp6WoEuHAlN1V-KIyUxrJdrc5xBUV6dVJXMCabNg0llg3mjqjptJABh7jT3f3aDaLR_wS5HRGTaOOm5zKHjeouqonxkPttUcKEcXZnDxdC2sjQoZIuJjtz5dpFSghJgE5Hi3iB-pVKa_ms43EZfi92j6qRDHAS8t9zLoUp4pg1xaXVvr0JAitoz6s-Khox8GD0BL0cCfBtsQfHZKkxkR1riVpewcBNQbYyDbfNz_rRgjWcFee6Q6IpPIPXrnkrL-qq2mOCaG3-UdbB5ruoUZY2GLQike3tcb0faL2hxIaGCWRLhlQLd5sKQMK8X3Cdvvyux-pL4OxuxERNIksHXB_50fUiYkv5H4bIf71yNCKnmW6G2LlNDioG4jXeWwYOob2fa7SOTQmt3rtA0oeF88BOz7twBHqdKS4o3gBYrlZgLpCn5I7_Q9K_9p1C7sIbS6k9KykWPG5_s12etriMTnyBFU7pgmhJVoaXkMb_chrBLLHZuMmREgHvr2ulH3G7PlfngCjP5hJTcIHFYubSdJg" charset="UTF-8"></script><script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html" class="active">Signup</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="signup-header">
+			<h1>Signup</h1>
+		</div>
+		<div id="register" class="regform">
+			<form id="reg" action="login.html" method="POST">
+				<h2>Already a member?<a href="login.html">Login</a></h2>
+				<p>
+					<label for="firstname" class="fname">First Name</label>
+					<input type="text" name="firstname" id="name" placeholder="Hello" required="required">
+				</p>
+				<p>
+					<label for="Lastname" class="lname">Last Name</label>
+					<input type="text" name="lastname" id="name" placeholder="World" required="required">
+				</p>
+				<p>
+					<label for="emailsignup" class="mail">Your Email</label>
+					<input type="email" name="emailsignup" id="email" placeholder="example@domain.com" required="required">
+				</p>
+				<p>
+					<label for="passwordsignup" class="passwd">Password</label>
+					<input type="password" name="passwordsignup" id="password" placeholder="**********" required="required" min="6">
+				</p>
+				<p>
+					<label for="passwordsignup" class="passwd">Confirm</label>
+					<input type="password" name="passwordsignup" id="password" placeholder="**********" required="required" min="6">
+				</p>
+				<p>
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<option value="Nigeria">Nigeria</option>
+						<option value="Canada">Canada</option>
+						<option value="USA ">USA</option>
+					</select>
+				</p>
+				<p>
+					<label for="age" class="birth">Birth Date</label>
+					<input type="date" name="DOB"  required="required">
+				</p>
+				<p>
+					<label for="course" class="learn">Courses:</label>
+					<input type="checkbox" name="course1" value="Java"> Java
+					<input type="checkbox" name="course2" value="Python"> Python
+					<input type="checkbox" name="course3" value="Arduino"> Arduino
+				</p>
+				<p>
+					<label for="sex" class="robot">Gender:</label>
+					<input type="radio" name="gender" value="male"> Male
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="other"> Other
+				</p>
+				<p class="signup-button">
+					<input type="submit" value="Sign Up">
+				</p>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>

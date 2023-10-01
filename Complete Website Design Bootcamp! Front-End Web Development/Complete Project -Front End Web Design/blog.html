@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html" class="active">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container clear">
+		<div class="blog-header">
+			<h1>The Lion King</h1>
+			<h2>My best cartoon movie ever!</h2>
+		</div>
+		<div class="blog-content">
+			<div class="blog-main-area">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. </p>
+
+					<div class="image-banner">
+						<img src="images/lionking.jpg">
+						<div class="banner-description">
+							<p>  Ut eu sem integer vitae justo eget magna fermentum. Vitae aliquet nec ullamcorper sit amet risus nullam. Aliquet nibh praesent tristique magna sit amet purus gravida.</p>
+						</div>
+					</div> 
+
+					<p>Leo duis ut diam quam nulla porttitor massa id. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Quis blandit turpis cursus in. At elementum eu facilisis sed odio morbi. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.</p>
+
+					<div class="block-box">
+					<p><strong>Nibh sed pulvinar proin gravida. Dolor sed viverra ipsum nunc aliquet bibendum. Massa ultricies mi quis hendrerit dolor magna eget. Integer vitae justo eget magna fermentum. Mauris commodo quis imperdiet massa tincidunt.</strong></p></div> 
+
+					<p>Pellentesque nec nam aliquam sem et tortor. Ipsum faucibus vitae aliquet nec ullamcorper sit. Donec massa sapien faucibus et molestie ac feugiat sed. Ultrices eros in cursus turpis massa tincidunt dui ut. Venenatis tellus in metus vulputate eu. </p>
+
+					<div class="sun">
+						<p>Beautiful Sun</p>
+					</div>
+
+
+					<p> Volutpat consequat mauris nunc congue nisi vitae suscipit. Maecenas pharetra convallis posuere morbi leo urna. Fames ac turpis egestas integer eget aliquet. Proin sagittis nisl rhoncus mattis.</p>
+
+					<table class="myitems">
+						<thead>
+							<tr>
+								<th class="tname">Item Name</th>
+								<th class="tqt">Quantity</th>
+								<th class="tp">Price($)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apple</td>
+								<td>150</td>
+								<td>10.00</td>
+							</tr>
+							<tr>
+								<td>Lollipop</td>
+								<td>250</td>
+								<td>80.00</td>
+							</tr>
+							<tr>
+								<td>Kettle</td>
+								<td>10</td>
+								<td>2000.00</td>
+							</tr>
+							<tr>
+								<td>Electronics (Television, Radio & DVD)</td>
+								<td>400</td>
+								<td>5000.00</td>
+							</tr>
+							<tr>
+								<td>Apple</td>
+								<td>150</td>
+								<td>10.00</td>
+							</tr>
+							<tr>
+								<td>Lollipop</td>
+								<td>250</td>
+								<td>80.00</td>
+							</tr>
+							<tr>
+								<td>Kettle</td>
+								<td>10</td>
+								<td>2000.00</td>
+							</tr>
+							<tr>
+								<td>Electronics (Television, Radio & DVD)</td>
+								<td>400</td>
+								<td>5000.00</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>
+						    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span data-toggle-target=".full-text" data-toggle-text="Hide Text..." class="toggle-btn read-more">Read more...</span>
+					</p>
+					<div class="full-text">
+						<h1>Web Developers</h1>
+						<p>
+							    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+			</div>
+			<aside class="blog-sidebar">
+				<h1>Simba</h1>
+				<p>
+				    Risus quis varius quam quisque. In vitae turpis massa sed elementum. Malesuada pellentesque elit eget gravida cum. Amet nulla facilisi morbi tempus iaculis urna. 
+				</p>
+				<img src="images/Simba.png">
+				<div class="Newsletter">
+					<h1>Newsletter</h1>
+					<form action="" method="POST">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="Email">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" placeholder="Password">
+						<select>
+							<option>Daily</option>
+							<option>Weekly</option>
+							<option>Monthly</option>
+							<option>Yearly</option>
+						</select>
+						<input type="submit" name="submit" value="Signup">
+						<label>
+							<input type="checkbox" checked="checked" value="yes">
+							<span class="checkbox-text">Stayed signed in</span>
+						</label>
+					</form>
+				</div>
+			</aside>
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>

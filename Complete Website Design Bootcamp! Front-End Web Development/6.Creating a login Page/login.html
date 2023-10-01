@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=yd6yuivquBaxBrCch5Rr0HkNp8LLoT5KOZYJuy48mIUAKCWG2xy8M4LSYgZspQ0PZmx9UvbRTiB6qFANp0wK04QHwtxIU12MhXq__BKXU1c65e2CQniTeXD7EYei9aCASy1tyGyT4Oy3JBrkZ_n2Wl9wJzk0MzvKvpjI0y9xuh9PyI-99nS95CMxkiF6mCh0OyTN1biUteNOcXNBJ3vVUWnHenEFEyyogycoFVDkoiFvRB-biNADqOyPesAWhewdOm7kARC4j7pu5EpEItw3mxqn4GniVGdiz2p0iuGaFJYylS2SjLhAA0oMRrucOpJ3X8a96EVo2zWKHauw3d9Zvkpupy3ROKoqTc6ERxP479rMRuK-wpFupR2S2IzsBtHAEH2RxnCKTUmxmKj_18N8uC7zRqzmnggTcTIeHHb6--bjHwGomiwFOE7akZpQwGD1qDU3rk-DZWapWlHcBQRu49aMW-msIL5ZdpcJ3fG5UXMNmiE6WM0clHyVdMRG2XoYlvyv3RECSxXq8YRtS3LTb9bgySfZZc88-ouRVAJLUVb-hxYAPTiF4TWTDuqUlVspqmFZQkhhOxEm6uxTuXhlvGKp5bXq0n7GX-A2A6f1thSDqBpCZQDO2QL-qodUbxqIddUC99kmrUA6r9jxnl8W6F3q--Ik_Qupn1mQcfB79N9RY1wgapqsVDCslAQ54sRnYEQ0FdmMHX0cEswF5ZzFDLq3FnsHTS0K5nxzdgVwV3WocU-VVlSTxXFX1WYAl-mevQQo3zZK7eIjSJcYTFlrog" charset="UTF-8"></script><script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html" class="active">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="login-header">
+			<h1>Login</h1>
+		</div>
+		<div class="welcome">
+			<form id="loginform" action="media.html" method="POST">
+				<h2>Sign in</h2>
+				<div class="row">
+					<p>
+						<label for="email">Your Email</label>
+						<input id="loginemail" type="email" name="email" placeholder="example@domain.com" required>
+					</p>
+					<p>
+						<label for="Password">Password</label>
+						<input id="loginpass" type="Password" name="Password" placeholder="***********" required>
+					</p>
+					<p class="keeplogin">
+						<input type="checkbox" name="keep" id="keep" value="keep">
+						<label for="keep">Keep me logged in</label>
+					</p>
+					<p class="recoverpassword">
+						<a href="#recoverpassword">forgot password</a>
+					</p>
+					<input type="submit" value="Login">
+					<p class="join">
+						<label for="new_member">Not yet a member</label>
+						<a href="signup.html">Register</a>
+					</p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>

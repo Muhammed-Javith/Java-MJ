@@ -1,0 +1,79 @@
+.mycontact{
+	background-color: #90ee90;
+	padding: 50px 20px;
+}
+
+.mapouter{
+	position: fixed;
+	margin: 0 auto;
+}
+
+
+form{
+	max-width: 300px;
+	min-width: 250px;
+	margin: 0 auto;
+	padding: 10px 50px;
+	border: 3px solid grey;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.MyPop h2{
+	background-color: #90ee90;
+	padding: 25px 40px;
+	margin: -10px -50px;
+	border-radius: 10px 10px 0 0;
+}
+
+.MyPop input[type=text],
+input[type=email]{
+	width: 82%;
+	padding: 10px;
+	margin-top: 30px;
+	border: 2px solid grey;
+	padding-left: 40px;
+}
+
+#name{
+	background-image: url(images/icon2.png);
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+}
+
+#email{
+	background-image: url(images/icon5.png);
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+}
+
+.MyPop textarea{
+	background-image: url(images/icon3.png);
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+	width: 82%;
+	height: 90px;
+	padding: 10px;
+	margin-top: 30px;
+	resize: none;
+	border: 2px solid grey;
+	padding-left: 40px;
+	margin-bottom: 30px;
+}
+
+#submit{
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: darkgreen;
+	background-color: #90ee90;
+	padding: 15px 0;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#submit:hover{
+	background-color: #66CC00;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=6DfYdFWXFex0J2wd4UgoaaZIiOH9MSOkZklUc_zrEYTaYCN8aWd0rIzhdIr-2XpMw_8BnlWo_bUvSoHdkS3hN1YchvRMo8BtQoXAZSsvfF5HcwnYOfP6sp6Lw8jLX8CQEwC6hap7dLdk7Q80xbBnvjVPf1EChlbQ2xDm7j2JWUsrL-325FgR1j66AhZLaa9TkfgsF91kRCgJiuHdycoErngJuUPzAbZrqpEnSwZ5_IyaCTfsocES0LvueEHsIpe3mB_GsyAkoUX2ZpWwX6Eq4tHaI5iHQfBojCSqUPzCNyL6eOR01WgJr7z68BYjqi2b96na1pTWr0si0FW2uqKObJHZ7tqP8DYzrR5U-ol8o8RDeLR835tr6QZLvdJUBVUwK4kBFgRB-utNnaggDd36FxQlEo-X7yApavaomoVCGfbFbuA9AcOXL8MXWNHx5v8J1KzqMZfXW3e_POjHxecbKyt2vkw1Zl_J9HgetO6tG3gPJBBWSq2KdxqQf0yQqUjF0YjU5uQsaZhuNRU1wA-BtsRMh6q50fmtGMj_RMllBcaKgYfb6ao_meAfhdllKk1kBHQyIGzZqf1X6Ltg7XnGFGAwT5vsFPQCRkPAQVEJXaTFVKdIA6TpiVkhbaEtaqmunKujgvuymABIbjEVAXiyKwXxlQkDNTULgBVunlcLUWxaAK5HmlQatgSnAYR3HMO39GXVDX19hGVbfPN2HLBPHFfioC-QjAoNHn8UsSZFttsvbxWnNZy7nX_-dsez3h_SymbdIkwck2yoUt_SNb9h6Q" charset="UTF-8"></script><script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/cycle2.js"></script>
+	<script type="text/javascript" src="js/lightbox.min.js"></script>
+	<script type="text/javascript" src="frontend.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)" class="active">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="media-header">
+			<h1>Best Cinema Gallery</h1>
+			<h2>Have fun & entertain yourself...</h2>
+		</div>
+		<div class="media-container">
+			<!-- Starting of Slides -->
+			<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+
+				<span class="cycle-prev"><img src="images/prev.png"></span>
+				<span class="cycle-next"><img src="images/next.png"></span>
+				<span class="cycle-pager"></span>
+
+				<div class="slide">
+				<img src="images/FrontEndSlid.png" alt="First Flower">
+				</div>
+				<div class="slide">
+					<img src="images/FrontEndSlid1.png" alt="Second Flower">
+				</div>
+				<div class="slide">
+					<img src="images/FrontEndSlid2.png" alt="First Bird">
+				</div>
+				<div class="slide">
+					<img src="images/FrontEndSlid3.png" alt="Third Flower">
+				</div>
+				<div class="slide">
+					<img src="images/FrontEndSlid4.png" alt="Second Bird">
+				</div>
+				<!-- End of Slides -->
+			</div>
+			<!-- Starting of Photo Gallery 1 -->
+			<div class="Photo-Gallery-1">
+				<h1>Photo Gallery 1</h1>
+				<div class="thumbnails">
+				 <a href="images/Aeroplane.png" data-lightbox="gallery" data-title="Aeroplane"><img src="images/Aeroplane-thumb.png"></a>
+				 <a href="images/Bike.png" data-lightbox="gallery" data-title="Bike"><img src="images/Bike-thumb.png"></a>
+				 <a href="images/Car.png" data-lightbox="gallery" data-title="Car"><img src="images/Car-thumb.png"></a>
+				 <a href="images/Purple-Tree.png" data-lightbox="gallery" data-title="Purple-Tree"><img src="images/Purple-Tree-thumb.png"></a>
+				 <a href="images/Parrot.png" data-lightbox="gallery" data-title="Parrot"><img src="images/Parrot-thumb.png"></a>
+				 <a href="images/Puppy.png" data-lightbox="gallery" data-title="Puppy"><img src="images/Puppy-thumb.png"></a>
+				 <a href="images/YellowFish.png" data-lightbox="gallery" data-title="YellowFish"><img src="images/YellowFish-thumb.png"></a>
+				 <a href="images/Water.png" data-lightbox="gallery" data-title="Water"><img src="images/Water-thumb.png"></a>
+				</div>
+			</div>
+			<div class="embedded-videos">
+				<h1>Embedded Videos</h1>
+				<div class="watch">
+					<video src="videos/DJ-Techno.mp4" controls poster="videos/cover.jpg">
+						Your browser does not suppport this video type
+					</video>
+				</div>
+			</div>
+			<div class="embedded-audios">
+				<h1>Embedded Audios</h1>
+				<div class="audio">
+					<a onclick="playclip();"><img src="audios/audio.jpg" alt="audio cover" class="imgaudio"></a>
+					<audio controls class="mp3">
+						<source src="audios/Jingle-Bells.mp3">
+					</audio>
+				</div>
+			</div>
+			<div class="photo-gallery-2">
+				<h1>Photo Gallery 2</h1>
+				<div class="photo-gallery">
+					<div class="photo-thumbnails">
+						<img onmouseover="preview.src=Flower.src" name="Flower" src="images/Flower.png" alt="Flower">
+						<img onmouseover="preview.src=Love.src" name="Love" src="images/Love.png" alt="Love">
+						<img onmouseover="preview.src=Nature.src" name="Nature" src="images/Nature.png" alt="Nature">
+						<img onmouseover="preview.src=Palm.src" name="Palm" src="images/Palm.png" alt="Palm">
+					</div>
+					<div class="preview">
+						<img name="preview" src="images/Flower.png" alt="Flower">
+					</div>
+				</div>
+			</div>
+			<div class="css-stripes">
+				<h1>CSS Stripes</h1>
+				<nav class="str">
+					<ul class="mystr">
+						<li class="home"><a href="#">Home</a></li>
+						<li class="chat"><a href="#">Chat</a></li>
+						<li class="mail"><a href="#">Email</a></li>
+						<li class="phone"><a href="#">Phone</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>

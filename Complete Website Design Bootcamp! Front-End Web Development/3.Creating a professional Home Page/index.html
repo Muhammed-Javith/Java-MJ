@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="Popup.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OdebUaPxhhLHwBPxxPRsTc8D9EoeDSLDKfibgiiU4xsHFzF1_x-knlozlY8nwzc5qEtPBjVRO1JmvlARvpS30Cnap8QbU-K599hiAOJUVP6nD1Qo3aRNTAr1zdPwmJSveMk7q5GrWtnBktBf0ikRCmbYcRk3ZFMAwlctnNvi4R8XPVZfDrkYh-w9-OEHZDi8ZXJR_acJbwNthsAPYP4pYCifJ0DRnPNZNZP615gY8b-3JRzIK0ubS9dRDGXlqYcT4eAgU6xaaSNeTqlpEb4l4eJrEpQaNml2-USzUSn7aeVsVi48giiCCRJGk7KIe0R1cUrSzMc-H-cds1S6uH6AIiyt57BY8dLSbG8GMyWyeoeL6Qd_BNa2ke9T-jNFYchLV7aR7fDXLXHd7c_YmUMIwVctbeOBrTcNjvWX7t_ywllpp7D30PkHp3CiHDOYBOH6S0-PU8aYhW523Qg7huTQUs5TDi-lOqxb4-uSolyoA2HVwes9sWuQG-8wcYC1XrF7i2oz5IsYXqk9ajZa6j_mQqbfM2hL0kvtZ_qKq0MohPiBzqIDTk7uC1CVeoHa1yoKbb_dhlITrWAuVOMquWlFhtJWlpwksUbiPr0lUP_dndBwoO4nxOA3LYQDkpi_OsBquJrfJA8avINQ9rBtkeFNtQEJ8jeTuMHjJX0chbH7T4DfNUGFlLC-5n-Lcafq0vZBGMmV5QOSc4czZ6eTGwIClioDSuFhAfgJaQ-XUOBjU-EFY0ALt3fnIgfq0Yb6p2dveqv64Cx6AMGr5g06FRrA-w" charset="UTF-8"></script><script type="text/javascript" src="frontend.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)" class="active">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" data-toggle-text="X" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="top-site">
+			<h1>Front-End Developers</h1>
+			<h2>We build awesome designs... Join us today!</h2>
+			<img src="images/earth.png" alt="front end header picture" class="green-earth">
+		</div>
+		<div class="middle-site">
+			<div class="first-middle-site">
+				<img src="images/bird.gif" alt="peace-developers of front end">
+				<h2>Peaceful Developers</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<hr>
+			<div class="second-middle-site">
+			<div>
+				<h2>Our Services</h2>
+				<div class="our-services">
+					<img src="images/work1.png" class="service-1-img" alt="service-1">
+					<h3>Template Design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+				</div>
+				<div class="our-services">
+					<img src="images/work2.png" class="service-2-img" alt="service-2">
+					<h3>Web Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+				</div>
+			</div>
+			<hr>
+			<div class="third-middle-site">
+			<div>
+				<h2>Need our services?</h2>
+				<h3>Hit the contact box and drop us a message</h3>
+				<p class="contact-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+				<!--<a class="myButton" href="mailto:ejike@gstevewall.com">Contact Us</a>-->
+			</div>
+		</div>
+
+		<!--Laveraging the power of JavaScript -->
+
+		<div class="MyPop">
+			<div id="MessageBox">
+				<!-- Starting Box Popup -->
+				<div id="popupContact">
+					<!--Contact Form -->
+					<form action="#" id="form" method="POST" name="form">
+						<img src="images/icon1.png" id="close" onclick="close_form()">
+						<h2>Contact Us</h2>
+						<input type="text" id="name" name="name" placeholder="Name">
+						<input type="email" id="email" name="email" placeholder="Email">
+						<textarea id="msg" name="message" placeholder="Message"></textarea>
+						<a href="javascript:input_fields()" id="submit">Send Message</a>
+					</form>
+				</div>
+				<!-- This is end of Popup form -->
+			</div>
+			<a class="myButton" id="popup" onclick="show_form()">Contact Us</a>
+			<!--This is the end of PopupMessage-->
+		</div>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>

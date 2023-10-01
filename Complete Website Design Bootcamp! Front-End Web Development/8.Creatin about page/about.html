@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Front End Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML,CSS, Front End">
+	<meta name="author" content="Ejike IfeanyiChukwu">
+	<link rel="stylesheet" type="text/css" href="frontend.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="icon" href="images/icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=56HgFclPG9W1PSFeJCUR2t38YCo3K8YZgQPdaQJu7qbCX8YHLe1X7mPOfDpAyPesUiHAOh0fCiUvR9StF1bRj_6fM6sF3-aE6RJnmdi56KkiVtTAKbFtj4GzGd4snIkyqqX7kcgyvVOxATeesm40nSHEA5zeQCXVrbdwvSPkiZR1Qla-5BpJa-w3n52hfQ11cor10GnPKFyAhlArNVZO9NrlAF6eC1kA_HhOCS4sWEzfBzsVCIBVlY-bdTkW8iIj2b0K9groDMF_33nAcn6691fGwbKNTyKtWbYcdToKRPIlxlBUZfHw8vmv2NhNIoSp4upoPiQVsws1HBWqROvglHexcaSKvq2lzwIqalq2PlINdqFIGz1fS1UrYpIfdyT4hGXtr6ujXr2gut9PpaNeN-9xrXlDbLkVv0ZnXc94BfgM-kbSGOopToO2LjD6HVhp-u0uvsGec6nRIt9V3AQA7yizWv2a40C1RzzqW-ZmUOuwplEJZKTHQDwIOYmoc0_3jqiZUDc_B3NLvS4G3PnkED-nwSnHIWKgqc_QhljTwjjQKquYK0vhhJx9qKPIZwa6XH3vnJcWrgEO1ZLu89GaBA-23z9jPx8rmE5YSZJU7r8H8JcQ-qXYVjt1PnkBaQ6WtmEGRI3khMC010cAWIs4gmEOc7nVfNP1lsWiVqQ6kuLCsyN1chXBCewScXC_uXSeH2ypboKKK88bM_4BNo8jWAw87BpF5z1ZUDak_YgbpHhD4g0W9m0Ppak_7LO9He2-MVrAZRfXJvdeZC0U_D3FLw" charset="UTF-8"></script><script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="search web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+					<li class="drop">
+						<a href="javascript:void(0)">Menu</a>
+						<div class="drop-content">
+							<a href="index.html">Home</a>
+							<a href="blog.html">Blog</a>
+							<a href="media.html">Media</a>
+							<a href="signup.html">Signup</a>
+							<a href="login.html">Login</a>
+							<a href="contact.html">Contact</a>
+							<a href="about.html">About</a>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li class="drop">
+						<a href="javascript:void(0)">Media</a>
+						<div class="drop-content">
+							<a href="media.html">Video</a>
+							<a href="media.html">Audio</a>
+							<a href="media.html">Photos</a>
+							<a href="media.html">Slides</a>
+						</div>
+					</li>
+					<li><a href="signup.html">Signup</a></li>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html" class="active">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				<img src="images/menu.png" alt="menu toggle button">
+			</span>
+		</div>
+	</header>
+	<div class="site-container">
+		<div class="aboutme">
+			<h1>Ejike IfeanyiChukwu</h1>
+		</div>
+		<div>
+			<img src="images/Ejike.png" class="profile-picture" alt="Ejike profile picture">
+			<p class="about-Ejike">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</em></strong> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<hr>
+		<h3>Courses taught by Ejike</h3>
+		<ul>
+			<li>Complete software developer bootcamp. Zero to Hero!</li>
+			<li>500+ software programming practices for absolute beginners</li>
+		</ul>
+		<hr>
+		<h3>Work Experience</h3>
+		<table cellspacing="30" class=tableskills>
+			<tr>
+				<th>Date</th>
+				<th>Experience</th>
+			</tr>
+			<tr>
+				<td>2015-2016</td>
+				<td>Hardware Developer</td>
+			</tr>
+			<tr>
+				<td>2020-date</td>
+				<td>Software Developer</td>
+			</tr>
+		</table>
+		<hr>
+		<h3>Skills & Hobbies</h3>
+		<table cellspacing="30" class="tableskills">
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>Java</td>
+							<td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>Python</td>
+							<td>⭐ ⭐ ⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>C#</td>
+							<td>⭐ ⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>C++</td>
+							<td>⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>⭐</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>Swimming</td>
+							<td>⭐</td>
+						</tr>
+						<tr>
+							<td>Reading</td>
+							<td>⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>Travelling</td>
+							<td>⭐ ⭐ ⭐</td>
+						</tr>
+						<tr>
+							<td>Football</td>
+							<td>⭐ ⭐ ⭐ ⭐ </td>
+						</tr>
+						<tr>
+							<td>Programming</td>
+							<td>⭐ ⭐ ⭐ ⭐ ⭐</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com" class="footer-link">Twitter</a>
+			<a href="http://www.gstevewall.com" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2023 Muhammed Javith @ MJ Academy</p>
+		</div>
+	</footer>
+</body>
+</html>
