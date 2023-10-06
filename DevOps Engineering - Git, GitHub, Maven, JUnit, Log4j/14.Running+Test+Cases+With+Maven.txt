@@ -1,0 +1,20 @@
+archetype : maven-archetype-quickstart
+
+>ex-7>mvn archetype:generate
+
+DemoProject
+  src/main/java : com/uplatz/in
+                  App.java
+		  Arithmetic.java
+  src/test/java : com/uplatz/in
+		  AppTest.java
+		  ArithmeticTest.java
+  
+  pom.xml
+
+
+ >mvn test : To Run Test Cases
+ >mvn surefire-report:report : To Run Test Cases and to get test report
+ >mvn surefire-report:report-only : To get test report directly
+ >mvn clean : To Clean Our Project
+ >mvn site  : To Generate Project related total documentation

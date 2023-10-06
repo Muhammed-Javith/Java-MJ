@@ -1,0 +1,122 @@
+Maven Introduction:
+=====================
+What is a Resource?
+--------------------------
+* A File or Program of an Application is called Resource
+
+What is Build Process?
+* Keeping Resources Ready
+* Arranging Resources in Various Folders
+* Adding Libraries/Jars to classpath
+* Compilation
+* Execution
+* Testing
+* Packaging for release or deployment is continously required in project development 
+  and Delivery Process
+
+Note : 
+--------------
+Keeping Our Project Ready for execution / Release is called Build Process
+This involves multiple complicated and repetitive operations
+
+
+Core Java Project:
+----------------------
+1)Develop Java Resources and other files
+2)Keep them in  different folders
+3)Add Jars  / Libraries in Class Path
+4)Compilation
+5)Execution / Testing
+6)Packing the Project For Release (jar | war )
+
+Unit Testing : Programmers testing on their own piece of code is called Unit Testing
+
+Performing Build Process Activities manually is having lot of limitations:
+================================================================================
+1)Remebering Complicated and Repetitive Operations is very tough
+2)We may mismatch order
+3)We may forget certian activities
+4)Doing multiple activities of Build Process Manually will waste our time and etc
+
+
+Batch (.bat) :
+------------------
+Batch is given to combine related commands into single command (By using single command we can
+automate the process)
+
+
+>run.bat
+  cd T:
+  mkdir MyProject
+  copy source file into destination 
+  set path=......
+  set classpath=.....
+  javac -d . *.java
+  java <pakg>.<Main Class>
+
+Limitations of Batch File:
+=======================================
+1)Conditional Execution is not possible
+2)We cannot create Dependency Among Operations
+3)Jars files must be added manually
+4)If one command fails in batch file , then next command will not execute
+5)It is not declarative(not self intelligent, ie. we need to tell eveything what  to do)
+
+To Overcome above limitations we got ANT Tool (Another Neat Tool):
+-------------------------------------------------------------------------
+* Same as batch file,but we can keep operations as conditional operations and we can maintain 
+  depedency amoug operations
+
+To overcome above limitations with Batch and ANT Tools we got maven tool introduced with lot of advanced
+features
+
+* ANT is just Build Tool .... 
+* Maven is a Build Tool and Project Management Tool
+* Maven is a build automation tool used promarily for java projects
+
+Archetypes : Project Templates
+
+* Archetypes are templates to create projects
+  a)maven-archetype-quickstart : Standalone projects
+  b)maven-archetype-webapp     : Web Applications
+ 
+Key Features of Maven:
+===========================
+1)Maven tries to avoid as much configurations as possible , by choosing real worl default values and 
+supplying project templates
+2)Download JAR Files Dynamically
+3)Can maintain multiple repositories having jar files ,plugins etc
+4)Provides Standard Project Directory Structures
+5)Alows to develop multiple module projects
+6)Has the capability to generate WAR[Web Application Archive]  ,JAR [Java Application Archive ] OR
+  EAR [ Enterprise Application Archive ]
+7)Can Run Unit Tests and can generate unit test reports
+8)Can generate Project Documentation
+9)Can clean and install projects in local servers or remote servers
+
+Maven Can be Used As
+ 1)From CLI (Command Line Interface)
+ 2)From IDE (Integrated Development Environment] : STS ,ECLIPSE ,MYSCLIPSE ,NETBEANS
+
+Official Maven WebSite : maven.apache.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+

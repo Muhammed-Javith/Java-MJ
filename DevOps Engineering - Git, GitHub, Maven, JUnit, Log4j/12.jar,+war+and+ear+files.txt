@@ -1,0 +1,24 @@
+Standalone Java Project : .java , .txt , .properties , . jars etc : .jar File
+
+Jar : Java Archive : It contains group of .class files ,.jars and .txt etc : extension : .jar
+--------------------
+We can generate jar files manually
+we can generate jar file through build tools like maven,gradle etc
+
+>mvn package > target > <project_name>-<version>.jar
+
+War : Web Archive : It Represents java Web Application
+-------------------
+Web Applications : HTML,CSS,Java Script,Servlets,jsps,.xml,.properties,.img,.java etc
+                  
+The main advantage of Maintaining web app in the form of war file is project deployment,delivery
+and project transportation will become easy
+
+* we can generate war file manually from command prompt
+* we can generate war file using build tools like maven,gradle etc
+
+Ear : Enterprise Archive : It Represents an Enterprise Application ,which contains servlets,jsp,ejb
+,jms etc : extension .ear
+
+we can generate ear files manually
+we can generate ear files through build tools like maven or gradle
