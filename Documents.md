@@ -11,3 +11,5 @@
 **5.Scrum Testing: Learn Testing in Agile and Scrum from A to Z :** [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Scrum%20Testing%20Learn%20Testing%20in%20Agile%20and%20Scrum%20from%20A%20to%20Z)
 
 **6.Agile Project Management Agile, Scrum, Kanban and XP** [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Agile%20Project%20Management%20Agile%2C%20Scrum%2C%20Kanban%20and%20XP)
+
+**7.DevOps Engineering - Git, GitHub, Maven, JUnit, Log4j** [click here to view](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/DevOps%20Engineering%20-%20Git%2C%20GitHub%2C%20Maven%2C%20JUnit%2C%20Log4j)
