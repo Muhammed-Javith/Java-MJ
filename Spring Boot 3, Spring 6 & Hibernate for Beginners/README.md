@@ -1,9 +1,8 @@
-# Spring Boot 3, Spring 6 and Hibernate for Beginners
+# [Spring Boot 3, Spring 6 and Hibernate for Beginners](https://github.com/Muhammed-Javith/Udemy-MJ/blob/main/Spring%20Boot%203%2C%20Spring%206%20%26%20Hibernate%20for%20Beginners/README.md)
 
-Source code for the course: [Spring Boot 3, Spring 6 and Hibernate for Beginners](http://www.luv2code.com/spring-github)
 
-If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.udemy.com/spring-hibernate-tutorial/learn/v4/questions).
 
-Happy coding!
+Source code for the course: [Spring Boot 3, Spring 6 and Hibernate for Beginners](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Spring%20Boot%203%2C%20Spring%206%20%26%20Hibernate%20for%20Beginners)
 
-[<img src="images/spring-boot-3-spring-6-and-hibernate-thumbnail-small.png">](http://www.luv2code.com/spring-github)
+
+Documents and notes for the course: [Spring Boot 3, Spring 6 and Hibernate for Beginners](https://github.com/Muhammed-Javith/Udemy-MJ/tree/main/Spring%20Boot%203%2C%20Spring%206%20%26%20Hibernate%20for%20Beginners/Documents)
