@@ -1,9 +1,0 @@
-Download Visit https://maven.apache.org/
-
-1)Add <MAVEN_HOME> To Environment Variables
-2)Add apache-maven-3.6.3-bin\apache-maven-3.6.3\bin to path environment variables
-3)Add <JAVA_HOME> :: to Envvironment Variables
-
-To Check Wheather maven is configured properly or not use the following command from command prompt
-			
-			> mvn -v  or mvn -version
